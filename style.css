@@ -12,7 +12,7 @@ colors: #364FC7 #748FFC #edf2ff
 }
 
 body {
-  font-family: "krub", sans-serif;
+  font-family: 'krub', sans-serif;
 }
 
 .container {
@@ -185,7 +185,8 @@ h1 {
 
 .picoq {
   width: 200px;
-  height: 224px;
+  height: 150px;
+  border-radius: 15px;
 }
 
 .piclogos {
@@ -194,14 +195,15 @@ h1 {
 }
 
 .picflorzinha {
-  width: 250px;
+  width: 200px;
   border-radius: 15px;
 }
 
 .a-gente {
-  width: 600px;
+  width: 550px;
   height: 152px;
   border-radius: 50px;
+  border: 6px solid #748ffc;
 
   display: flex;
   margin: 0 auto;
