@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Krub:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Parabéns</title>
+  </head>
+  <body>
+    <header class="container">
+      <h1 class="centering">Parabéns!</h1>
+      <p class="subtitulo centering">Bem vindo ao seu site de presente.</p>
+      <a href="#section1" class="btn-menu centering">Ver informações</a>
+      <div class="icons">
+        <a href="#section2" title="Do que gostamos">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="btn heart"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+            />
+          </svg>
+        </a>
+        <a href="#section3" title="Fotos"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="btn picture"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
+            /></svg
+        ></a>
+        <a href="#section4" title="Hora da pessoa"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="btn moon"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
+            />
+          </svg>
+        </a>
+        <p class="text1">Não clique se é sua primeira vez no site</p>
+      </div>
+      <img class="cajuzinho1" src="images/cajuzinho azul.png" alt="cajuzinho" />
+      <img class="cavalo1" src="images/cavalo azul.png" alt="cavalo" />
+    </header>
+
+    <section class="container menu btn-scroll" id="section1">
+      <div class="paginamenu">
+        <div class="tab">
+          <button
+            class="btnp2 maisquetextochato oquetem btnactive"
+            data-tab="1"
+          >
+            <span>O que tem no site</span>
+          </button>
+          <button class="btnp2 maisquetextochato comofoifeito" data-tab="2">
+            <span>Como o site foi feito</span>
+          </button>
+          <button class="btnp2 maisquetextochato agradecimentos" data-tab="3">
+            <span>Agradecimentos</span>
+          </button>
+        </div>
+
+        <div class="conteudo-menu">
+          <div
+            class="conteudot maisquetextochato--1 oquetemtext conteudo_nao conteudo-active click1"
+          >
+            <p class="textconteudo">
+              Apenas coisas simples que me lembram o mino. Não tem nenhum jogo
+              😥. O tempo para montar o site foi curto e a gente sabe que eu
+              preciso estudar mais, porém, apesar de simples é feito de coração
+              e planejado da melhor maneira para agradar o mino 😊😘.
+            </p>
+            <img
+              class="picoq"
+              src="images/Untitled-1.png"
+              alt="things we like"
+            />
+          </div>
+          <div
+            class="conteudot maisquetextochato--2 comofoifeitotext conteudo_nao click2"
+          >
+            <p class="textconteudo">
+              Busquei inspiração em sites do One Page Love, encontrei os ícones
+              que queria no HeroIcons, cores no Open Color e usei uma "tabela"
+              de tamanhos de fonte que eu já tinha. Criei o protótipo usando
+              figma (sim, foi melhor e você estava certo) e comecei a montar o
+              site primeiramente com html e CSS. As funcionalidades foram feitas
+              com Javascript (sempre buscando ajuda do Jonas Schemedtmann). No
+              futuro vou trabalhar melhor a resposividade.
+              <br />
+              <br />
+              Ps: Eu sei que você vai me falar algo pra melhorar no site.
+            </p>
+            <img
+              class="piclogos"
+              src="images/logos.png"
+              alt="logo css html js figma"
+            />
+          </div>
+          <div
+            class="conteudot maisquetextochato--3 agradecimentostext conteudo_nao click3"
+          >
+            <p class="textconteudo">
+              Ao mino lindo que é o meu parceiro para todos os momentos. O homem
+              mais determinado, bonito, prestativo e responsável que eu
+              conheço.😊😊
+            </p>
+            <img
+              class="picflorzinha"
+              src="images/florzinha.jpg"
+              alt="florzinha"
+            />
+          </div>
+        </div>
+      </div>
+
+      <img class="a-gente" src="images/picsblue.png" alt="a gente" />
+    </section>
+
+    <section class="container oquegostamos btn-scroll" id="section2">
+      <p class="momentos">Melhores momentos com o mino</p>
+
+      <div class="gostamos">
+        <img
+          src="images/cartavirada.png"
+          alt="moto"
+          class="imgdq --1"
+          data-pic="1"
+          title="Andar de moto"
+        />
+        <img
+          src="images/cartavirada.png"
+          alt="jogo"
+          class="imgdq --2"
+          data-pic="2"
+          title="Jogar"
+        />
+        <img
+          src="images/cartavirada.png"
+          alt="mac and cheese"
+          class="imgdq --3"
+          data-pic="3"
+          title="Mac and cheese"
+        />
+        <img
+          src="images/cartavirada.png"
+          alt="chopps"
+          class="imgdq --4"
+          data-pic="4"
+          title="Beber e comer nossa lasanha"
+        />
+        <img
+          src="images/cartavirada.png"
+          alt="pizzas"
+          class="imgdq --5"
+          data-pic="5"
+          title="Comer pizza"
+        />
+        <img
+          src="images/cartavirada.png"
+          alt="cavalo e cajuzinho"
+          class="imgdq --6"
+          data-pic="6"
+          title="Hora da pessoa"
+        />
+      </div>
+    </section>
+
+    <section class="container fotos btn-scroll" id="section3">
+      <div class="fotosposicao">
+        <p class="fotostitulo">Fotos queridas com o mino</p>
+        <div class="fotos-carousel">
+          <div class="maxPics">
+            <img
+              class="sides pic-carousel"
+              src="images/20210731_105418.jpg"
+              alt=""
+            />
+            <img
+              class="sides pic-carousel"
+              src="images/20210822_175610.jpg"
+              alt=""
+            />
+
+            <img
+              class="sides pic-carousel"
+              src="images/IMG_20210823_123251_793.jpg"
+              alt=""
+            />
+
+            <img
+              class="sides pic-carousel"
+              src="images/IMG-20220106-WA0021.jpg"
+              alt=""
+            />
+            <img
+              class="sides pic-carousel"
+              src="images/Screenshot_20220426-014618_Gallery.jpg"
+              alt=""
+            />
+            <img
+              class="sides pic-carousel"
+              src="images/vinnypizza.jpg"
+              alt=""
+            />
+
+            <img
+              class="sides pic-carousel"
+              src="images/20211231_214616.jpg"
+              alt="fotos"
+            />
+          </div>
+        </div>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="left"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          stroke-width="2"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M15 19l-7-7 7-7"
+          />
+        </svg>
+
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="right"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          stroke-width="2"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M9 5l7 7-7 7"
+          />
+        </svg>
+        <img
+          class="cavalocajuzinho"
+          src="images/cavaloecajuzinhoblue.png"
+          alt="Cavalo e Cajuzinho"
+        />
+      </div>
+    </section>
+    <section class="container future btn-scroll" id="section4">
+      <img src="images/Snapchat-1488985635.jpg" alt="Foto love" />
+      <p class="textloveis">
+        Hora da pessoa vai começaaar... <br /><br />
+        Era uma vez um cavalo que vivia com uma carrapatinha chamada Cajuzinho.
+        Os dois prometeram sempre jogar juntos, programar, comer coisas boas,
+        rir, beber e sempre que possível assistir alguma coisa antes de dormir.
+        <br /><br />
+        Sempre que um dos dois precisa, o outro ajuda. Quando um dos dois fica
+        triste, o outro faz chazinho. Sempre que um triunfa, o outro fica feliz.
+        <br /><br />
+        😊😊😊
+      </p>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
