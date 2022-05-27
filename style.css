@@ -207,6 +207,7 @@ h1 {
 
   display: flex;
   margin: 0 auto;
+  filter: contrast(70%);
 }
 
 /* ---------------Do que gostamos------------ */
