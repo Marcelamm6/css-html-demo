@@ -11,150 +11,161 @@ colors: #364FC7 #748FFC #edf2ff
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   font-family: 'krub', sans-serif;
 }
 
 .container {
   margin: 0 auto;
-  width: 1200px;
+  max-width: 120rem;
 }
 
-/* -----------------Header------------ */
+/* ---------------Header------------- */
 
-header {
+.vertical {
   height: 100vh;
-  position: relative;
-  margin-bottom: 0;
-  /* background-color: red; */
-  /* background-color: #edf2ff; */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  height: 55rem;
+
+  display: flex;
+  text-align: center;
 }
 
 h1 {
-  font-size: 86px;
+  font-size: 8.6rem;
   color: #364fc7;
-  padding-top: 10%;
+  margin-bottom: 1rem;
+}
 
+.caixinha-parabens {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
+  padding-bottom: 12rem;
 }
 
 .subtitulo {
-  font-size: 30px;
+  font-size: 3rem;
   color: #364fc7;
-  margin-bottom: 3%;
-
-  display: flex;
-  justify-content: center;
+  margin-bottom: 4rem;
 }
 
 .btn-menu {
-  font-size: 30px;
+  font-size: 3rem;
   color: #fff;
   font-weight: 100;
 
-  width: 350px;
-  padding: 10px 40px;
+  width: 35rem;
+  padding: 1rem 4.5rem;
   background-color: #748ffc;
 
-  border-radius: 50px;
+  border-radius: 5rem;
   border: none;
   text-decoration: none;
   cursor: pointer;
-
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
 }
 
 .btn-menu:hover {
   background-color: #364fc7;
 }
 
+.caixinha-icones {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .btn {
-  height: 50px;
-  width: 50px;
+  height: 5rem;
+  width: 5rem;
   color: #748ffc;
   stroke-width: 1;
   cursor: pointer;
-}
-
-.icons {
-  width: 300px;
-  display: grid;
-  grid-template-columns: 2fr 1fr 2fr;
-  text-align: center;
-  position: absolute;
-  left: 900px;
-  top: 500px;
 }
 
 .btn:hover {
   color: #364fc7;
 }
 
+.icons {
+  width: 30rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+}
+
 .text1 {
-  font-size: 20px;
+  font-size: 2rem;
   color: #748ffc;
   grid-column: 1/-1;
 }
 
 .cajuzinho1 {
-  width: 150px;
-  height: 202px;
+  width: 15rem;
+  height: 20.2rem;
   opacity: 70%;
-  position: absolute;
-  left: 1000px;
-  top: 20px;
 }
 
 .urso1 {
-  width: 300px;
-  height: 452px;
+  width: 30rem;
+  height: 45.2rem;
   opacity: 70%;
-  position: absolute;
-  top: 170px;
+
+  align-self: flex-end;
 }
 
 /* ------------Menu--------------- */
 
 .menu {
   height: 100vh;
-  padding-top: 5%;
+  padding: 5%;
   background-color: #edf2ff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .paginamenu {
-  width: 800px;
-  height: 300px;
-  border: 6px solid #748ffc;
-  border-radius: 20px;
+  width: 80rem;
+  height: 30rem;
+  border: 0.6rem solid #748ffc;
+  border-radius: 2rem;
 
   background-color: #fff;
-
-  margin: 0 auto;
-  /* margin-top: 5%; */
-  margin-bottom: 5%;
 
   /* position: relative; */
 }
 
-.btnp2 {
-  font-size: 20px;
-  color: #fff;
-  background-color: #748ffc;
-  width: 200px;
-  height: 50px;
-  cursor: pointer;
-  border: none;
-  border-radius: 50px;
-  margin-right: 1.5rem;
-  transform: translate(0, -50%);
-}
-
 .tab {
   display: flex;
+  gap: 2.5rem;
   justify-content: center;
+}
+
+.btnp2 {
+  font-size: 2rem;
+  color: #fff;
+  background-color: #748ffc;
+  width: 20rem;
+  height: 5rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5rem;
+
+  transform: translate(0, -50%);
 }
 
 .btnp2:hover {
@@ -175,38 +186,38 @@ h1 {
 
 .conteudo-active {
   color: #748ffc;
-  font-size: 18px;
+  font-size: 1.8rem;
 
-  padding: 0 20px;
+  padding: 0 2rem;
 
   display: flex;
-  column-gap: 15px;
+  column-gap: 1.5rem;
 }
 
 .picoq {
-  width: 200px;
-  height: 150px;
-  border-radius: 15px;
+  width: 20rem;
+  height: 15rem;
+  border-radius: 1.5rem;
 }
 
 .piclogos {
-  width: 200px;
-  height: 169px;
+  width: 20rem;
+  height: 16.9rem;
 }
 
 .picflorzinha {
-  width: 200px;
-  border-radius: 15px;
+  width: 20rem;
+  border-radius: 1.5rem;
 }
 
 .a-gente {
-  width: 550px;
-  height: 152px;
-  border-radius: 50px;
-  border: 6px solid #748ffc;
+  width: 55rem;
+  height: 15.2rem;
+  border-radius: 5rem;
+  border: 0.6rem solid #748ffc;
 
-  display: flex;
-  margin: 0 auto;
+  /* display: flex;
+  margin: 0 auto; */
   filter: contrast(70%);
 }
 
@@ -220,7 +231,7 @@ h1 {
 .momentos {
   color: #364fc7;
   font-weight: 600;
-  font-size: 44px;
+  font-size: 4.4rem;
 
   padding-top: 2%;
 
@@ -229,21 +240,21 @@ h1 {
 }
 
 .gostamos {
-  width: 700px;
-  margin: 30px auto;
+  width: 70rem;
+  margin: 3rem auto;
 
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  row-gap: 15px;
+  row-gap: 1.5rem;
   justify-items: center;
 }
 
 .imgdq {
-  width: 170px;
-  height: 230px;
+  width: 17rem;
+  height: 23rem;
 
-  border: 6px solid #748ffc;
-  border-radius: 20px;
+  border: 0.6rem solid #748ffc;
+  border-radius: 2rem;
 
   cursor: pointer;
 }
@@ -258,12 +269,13 @@ h1 {
 }
 
 .fotosposicao {
-  width: 1000px;
+  width: 100rem;
   position: relative;
 
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  justify-items: center;
+  display: flex;
+  justify-content: center;
+
+  gap: 5rem;
 
   margin: 0 auto;
 
@@ -271,18 +283,18 @@ h1 {
 }
 
 .fotostitulo {
-  font-size: 30px;
+  font-size: 2.4rem;
   font-weight: 600;
   text-align: center;
 
-  width: 250px;
+  width: 20rem;
   color: #364fc7;
 }
 
 .fotos-carousel {
-  border: 6px solid #748ffc;
-  width: 400px;
-  height: 533px;
+  border: 0.6rem solid #748ffc;
+  width: 40rem;
+  height: 53.3rem;
   position: relative;
 
   overflow: hidden;
@@ -307,9 +319,9 @@ h1 {
 .left,
 .right {
   color: #748ffc;
-  width: 40px;
+  width: 4rem;
 
-  border: 1px solid #748ffc;
+  border: 0.1rem solid #748ffc;
   border-radius: 50%;
   background-color: #fff;
   cursor: pointer;
@@ -335,8 +347,8 @@ h1 {
 }
 
 .cavalocajuzinho {
-  width: 200px;
-  height: 229px;
+  width: 20rem;
+  height: 22.9rem;
 
   align-self: end;
   /* position: absolute;
@@ -351,7 +363,7 @@ h1 {
 }
 
 .textloveis {
-  font-size: 24px;
+  font-size: 2.4rem;
   text-align: center;
 
   padding-top: 10%;
