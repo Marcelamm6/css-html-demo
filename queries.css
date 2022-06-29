@@ -26,8 +26,12 @@
   .urso1 {
     align-self: center;
   }
+
+  .menu {
+    justify-content: center;
+  }
   .paginamenu {
-    width: 40rem;
+    width: 45rem;
     height: 60rem;
   }
   .tab {
@@ -44,11 +48,24 @@
   .textconteudo {
     text-align: center;
   }
+  .piclogos {
+    width: 15rem;
+    height: 12.7rem;
+  }
   .a-gente {
     width: 45rem;
   }
 
+  .oquegostamos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
   .gostamos {
     grid-template-columns: 1fr 1fr;
+    width: 45rem;
+  }
+  .mometos {
+    text-align: center;
   }
 }
