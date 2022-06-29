@@ -80,4 +80,15 @@
   .elefantinho {
     align-self: center;
   }
+
+  .passarinhos {
+    display: none;
+  }
+  .future {
+    background-image: url(images/chicken-g9e58758d1_1280.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
