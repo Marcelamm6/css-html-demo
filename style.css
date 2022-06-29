@@ -132,13 +132,13 @@ h1 {
 
   display: flex;
   flex-direction: column;
-  gap: 8rem;
+  justify-content: space-between;
   align-items: center;
 }
 
 .paginamenu {
   width: 80rem;
-  min-height: 35rem;
+  min-height: 30rem;
   border: 0.6rem solid #748ffc;
   border-radius: 2rem;
 

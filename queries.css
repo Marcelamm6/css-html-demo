@@ -29,6 +29,7 @@
 
   .menu {
     justify-content: center;
+    gap: 8rem;
   }
   .paginamenu {
     width: 45rem;
