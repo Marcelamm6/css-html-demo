@@ -31,7 +31,10 @@
     height: 60rem;
   }
   .tab {
-    gap: 0.1rem;
+    gap: 1rem;
+  }
+  .btnp2 {
+    padding: 0.5rem 1rem;
   }
   .conteudo-active {
     flex-direction: column;
