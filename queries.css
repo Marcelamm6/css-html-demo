@@ -1,0 +1,29 @@
+@media (max-width: 71em) {
+  html {
+    font-size: 50%;
+  }
+}
+@media (max-width: 55em) {
+  html {
+    font-size: 35%;
+  }
+}
+@media (max-width: 34em) {
+  html {
+    font-size: 40%;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+  .caixinha-parabens {
+    order: -1;
+    padding-bottom: 1rem;
+  }
+  .presentinho {
+    display: none;
+  }
+  .urso1 {
+    align-self: center;
+  }
+}

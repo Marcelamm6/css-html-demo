@@ -20,23 +20,21 @@ body {
 }
 
 .container {
-  margin: 0 auto;
+  height: 100vh;
   max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
 }
 
 /* ---------------Header------------- */
 
 .vertical {
-  height: 100vh;
-
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .header {
-  height: 55rem;
-
   display: flex;
   text-align: center;
 }
@@ -111,7 +109,7 @@ h1 {
   grid-column: 1/-1;
 }
 
-.cajuzinho1 {
+.presentinho {
   width: 15rem;
   height: 20.2rem;
   opacity: 70%;
@@ -128,13 +126,13 @@ h1 {
 /* ------------Menu--------------- */
 
 .menu {
-  height: 100vh;
   padding: 5%;
   background-color: #edf2ff;
+  background-size: cover;
 
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  gap: 10rem;
   align-items: center;
 }
 
@@ -224,7 +222,6 @@ h1 {
 /* ---------------Do que gostamos------------ */
 
 .oquegostamos {
-  height: 100vh;
   position: relative;
 }
 
@@ -262,7 +259,6 @@ h1 {
 /* ------------------Fotos--------------- */
 
 .fotos {
-  height: 100vh;
   padding-top: 3%;
 
   background-color: #edf2ff;
@@ -358,7 +354,6 @@ h1 {
 /* ------------------Love is---------------- */
 
 .future {
-  height: 100vh;
   display: flex;
 }
 
