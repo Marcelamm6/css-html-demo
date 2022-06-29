@@ -26,4 +26,26 @@
   .urso1 {
     align-self: center;
   }
+  .paginamenu {
+    width: 40rem;
+    height: 80rem;
+  }
+  .tab {
+    gap: 0.1rem;
+  }
+  .conteudo-active {
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+  }
+  .textconteudo {
+    text-align: center;
+  }
+  .a-gente {
+    width: 45rem;
+  }
+
+  .gostamos {
+    grid-template-columns: 1fr 1fr;
+  }
 }
