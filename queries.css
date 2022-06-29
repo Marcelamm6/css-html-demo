@@ -70,10 +70,13 @@
     text-align: center;
   }
 
+  .fotos {
+    display: flex;
+    align-items: center;
+  }
   .fotosposicao {
     flex-direction: column;
     align-items: center;
-    justify-content: center;
   }
   .fotostitulo {
     width: auto;
