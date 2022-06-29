@@ -85,10 +85,18 @@
     display: none;
   }
   .future {
-    background-image: url(images/chicken-g9e58758d1_1280.png);
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.35),
+        rgba(255, 255, 255, 0.35)
+      ),
+      url(images/chicken-g9e58758d1_1280.png);
     background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .textloveis {
+    font-weight: 600;
   }
 }
