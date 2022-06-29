@@ -138,7 +138,7 @@ h1 {
 
 .paginamenu {
   width: 80rem;
-  height: 65rem;
+  min-height: 35rem;
   border: 0.6rem solid #748ffc;
   border-radius: 2rem;
 
