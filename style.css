@@ -265,7 +265,6 @@ h1 {
 }
 
 .fotosposicao {
-  width: 100rem;
   position: relative;
 
   display: flex;
@@ -342,7 +341,7 @@ h1 {
   transform: translate(500%);
 }
 
-.cavalocajuzinho {
+.elefantinho {
   width: 20rem;
   height: 22.9rem;
 
