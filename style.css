@@ -124,15 +124,16 @@ h1 {
 }
 
 /* ------------Menu--------------- */
-
 .menu {
   padding: 5%;
   background-color: #edf2ff;
   background-size: cover;
 
   display: flex;
+  justify-content: center;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  gap: 10rem;
   align-items: center;
 }
 
@@ -223,6 +224,9 @@ h1 {
 
 .oquegostamos {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .momentos {
@@ -259,9 +263,12 @@ h1 {
 /* ------------------Fotos--------------- */
 
 .fotos {
-  padding-top: 3%;
+  /* padding-top: 3%; */
 
   background-color: #edf2ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .fotosposicao {
@@ -272,7 +279,7 @@ h1 {
 
   gap: 5rem;
 
-  margin: 0 auto;
+  /* margin: 0 auto; */
 
   /* background-color: red; */
 }
